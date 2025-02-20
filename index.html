@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aurora Sucks</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @font-face {
+            font-family: 'Words of Love';
+            src: url('WORDSOFLOVE.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Circle of Love';
+            src: url('Circle Of Love.ttf') format('truetype');
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: white;
+            background-color: #ff69b4;
+            background-image: url('pheart.png');
+            background-size: 50px 50px;
+            background-repeat: repeat;
+            position: relative;
+            overflow: auto;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-family: 'Words of Love', cursive;
+            font-size: 8em;
+        }
+
+        p {
+            font-size: 2em;
+            font-family: 'Circle of Love', cursive;
+        }
+    </style>
 </head>
 <body class="flex items-center justify-center h-screen bg-gradient-to-r from-gray-900 to-gray-700 text-white">
     <div class="text-center">
